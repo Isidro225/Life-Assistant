@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)",
+      "Bash(npx create-next-app@latest life-assistant-tmp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)",
+      "Bash(cp -r life-assistant-tmp/. .)",
+      "Bash(rm -rf life-assistant-tmp)",
+      "Bash(npm install:*)",
+      "Bash(npx prisma:*)",
+      "Bash(npx create-expo-app:*)",
+      "Bash(npx expo:*)",
+      "Bash(rm -rf \"C:/Users/isidr/OneDrive/Documentos/LifeAssistant/mobile\")",
+      "Bash(npx create-expo-app@latest mobile --template blank-typescript@sdk-52)",
+      "Bash(npx create-expo-app@3.2.0 mobile --template blank-typescript)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(npx create-expo-app@3.2.0 mobile2 --template blank-typescript)"
+    ]
+  }
+}

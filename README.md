@@ -1,83 +1,36 @@
-# LifeAssistant
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Your automatic memory. Capture conversations, extract commitments, and never forget what matters.
+## Getting Started
 
-## 🚀 What Is LifeAssistant?
+First, run the development server:
 
-LifeAssistant is an AI-powered assistant that listens to your daily conversations and transforms them into actionable insights:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- 📝 Daily summaries of what happened
-- 📅 Detected events automatically added to your calendar
-- ✅ Tasks and commitments extracted in real time
-- 🧠 A searchable "second brain" of your day
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Instead of manually taking notes, LifeAssistant builds your memory for you.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## ⚙️ How It Works
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. 🎙️ Audio capture from your device (mobile or wearable)
-2. 📝 Speech-to-text transcription
-3. 🤖 AI analysis using LLMs
-4. 📊 Structured output:
-   - Tasks
-   - Promises
-   - Events
-   - Daily summary
+## Learn More
 
-## ✨ Core Features
+To learn more about Next.js, take a look at the following resources:
 
-### Daily Recap
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Get a clean summary of everything important that happened.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Smart Task Detection
+## Deploy on Vercel
 
-Automatically detects phrases like:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- "I'll send it tomorrow"
-- "I need to call him"
-
-### Event Recognition
-
-Converts conversations into calendar events.
-
-### Promise Tracking
-
-Never forget commitments again.
-
-### Searchable Memory
-
-Ask things like: "What did I say about that client?"
-
-## 🧩 Tech Stack (MVP)
-
-- Frontend: React / Next.js
-- Backend: Node.js / API routes
-- AI: OpenAI (speech + LLM processing)
-- Database: PostgreSQL (via Prisma)
-- Mobile: React Native / native bridge
-
-## 🔐 Privacy First
-
-LifeAssistant is designed with privacy in mind:
-
-- User-controlled recording
-- Encrypted data storage
-- Optional on-device processing (future)
-
-## 🧠 Vision
-
-We believe memory shouldn't be a limitation.
-
-LifeAssistant aims to become your external brain: a system that understands your life context, remembers everything, and helps you act on it.
-
-## 📌 Status
-
-🚧 MVP in development
-
-## 💡 Future Ideas
-
-- Real-time notifications ("you promised this")
-- WhatsApp / email integrations
-- Meeting mode (auto minutes)
-- Voice queries ("what did I agree with Juan?")
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
